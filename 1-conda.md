@@ -24,4 +24,6 @@ You can also directly create an environment with packages installed using `yml` 
 
 > **Potential Issues**: If a `SpecNotFound` is raised: cd to the path where .yml is located, set [path_to_yaml] as your yml file. If your conda version is conda 4.12.0 or lower, and meet error on create environment, try running `conda env create -n [name_of_env] --file=[path_to_yaml]`.
 
-You've now set up your first virtual environment! If you are familiar with jupyter notebooks, you can move directly to [the PyTorch guide](3-pytorch.ipynb). For a quick primer on notebooks, check out the [the jupyter guide](2-jupyter.md).
+You've now set up your first virtual environment! If you are familiar with jupyter notebooks, you can move directly to [the PyTorch guide](3-pytorch.ipynb). For a quick primer on notebooks, check out the [the jupyter guide](2-jupyter.ipynb).
+
+> **Having Trouble Opening the `.ipynb` File?**: Try opening up the file in VSCode. If this doesn't work, you can alternatively open up the notebook via localhost. Ensure that jupyter-notebook is installed as a dependency, `cd` into this directory, and type `jupyter-notebook` into your terminal. This will open up a tab to access your jupyter files in your browser.

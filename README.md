@@ -17,6 +17,6 @@ The starter kit is broken into 3 separate components. It is recommended to compl
 
 The [first step](1-conda.md) is to download and install Anaconda which will create a standalone environment with all the relevant dependencies/libraries (e.g. PyTorch). 
 
-The [second step](2-jupyter.md) will get you familiar with running code in jupyter notebooks. Jupyter notebooks are useful given their easy accessibility and notebook/block formatting to run one code block at a time, but are also optional since notebooks or code blocks can also simply be run as scripts (though re-training a model each run might be a bit computationally heavy, so you would need a way to save the model).
+The [second step](2-jupyter.ipynb) will get you familiar with running code in jupyter notebooks. Jupyter notebooks are useful given their easy accessibility and notebook/block formatting to run one code block at a time, but are also optional since notebooks or code blocks can also simply be run as scripts (though re-training a model each run might be a bit computationally heavy, so you would need a way to save the model).
 
 The [third step](3-pytorch.ipynb) will lead you through the implementation of a simple machine learning model in PyTorch. Documentation and resources for further reading will be linked throughout the notebook for more details, but to avoid becoming a lecture on machine learning principles, the notebook will focus on syntax and a skeletal framework that can be easily used.
